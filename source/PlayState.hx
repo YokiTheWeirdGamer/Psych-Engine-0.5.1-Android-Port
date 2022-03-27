@@ -177,7 +177,7 @@ class PlayState extends MusicBeatState
 	public var practiceMode:Bool = false;
 
 	public var botplaySine:Float = 0;
-	public var botplayTxt:FlxText;
+	public var botplayTxt = new FlxText(400, timeBarBG.y + 55, FlxG.width - 800, "USING HACKS", 32); 
 
 	public var iconP1:HealthIcon;
 	public var iconP2:HealthIcon;
